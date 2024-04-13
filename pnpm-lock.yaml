@@ -4,6 +4,11 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+patchedDependencies:
+  release-it-plugin-esm-bundle@3.0.0:
+    hash: hbzjlhnwis6sjsbte32r5b7g5i
+    path: patches/release-it-plugin-esm-bundle@3.0.0.patch
+
 devDependencies:
   '@angular/animations':
     specifier: 17.3.4
@@ -88,7 +93,7 @@ devDependencies:
     version: 17.2.0(typescript@5.4.5)
   release-it-plugin-esm-bundle:
     specifier: 3.0.0
-    version: 3.0.0(release-it@17.2.0)
+    version: 3.0.0(patch_hash=hbzjlhnwis6sjsbte32r5b7g5i)(release-it@17.2.0)
   rimraf:
     specifier: 5.0.5
     version: 5.0.5
@@ -3756,13 +3761,14 @@ packages:
       rc: 1.2.8
     dev: true
 
-  /release-it-plugin-esm-bundle@3.0.0(release-it@17.2.0):
+  /release-it-plugin-esm-bundle@3.0.0(patch_hash=hbzjlhnwis6sjsbte32r5b7g5i)(release-it@17.2.0):
     resolution: {integrity: sha512-3N85d6C37Dk1ArUazjOz4nwubOGZS6fL7QLG1Hr0ZXAz7CDLiBfEeq3VccHkT8U0Ho797gWDA2FY36kVDmmpHw==}
     peerDependencies:
       release-it: '>=15.0.0'
     dependencies:
       release-it: 17.2.0(typescript@5.4.5)
     dev: true
+    patched: true
 
   /release-it@17.2.0(typescript@5.4.5):
     resolution: {integrity: sha512-Cidaq5W4apZSpdEDQd2TJhH7GZAwfaG+ewe60p7B7+txyCHYR/T6lGvkKinJmePpdHsM0fzA05yGGXKCiHJHmA==}

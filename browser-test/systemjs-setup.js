@@ -1,6 +1,6 @@
 document.head.appendChild(
-  Object.assign(document.createElement("script"), {
-    type: "systemjs-importmap",
+  Object.assign(document.createElement('script'), {
+    type: 'systemjs-importmap',
     textContent: `
       {
         "imports": {
