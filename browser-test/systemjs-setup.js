@@ -4,6 +4,8 @@ document.head.appendChild(
     textContent: `
       {
         "imports": {
+          "tslib": "/base/system/es2022/tslib.min.js",
+
           "rxjs": "//cdn.jsdelivr.net/npm/@esm-bundle/rxjs/system/rxjs.min.js",
           "rxjs/operators": "//cdn.jsdelivr.net/npm/@esm-bundle/rxjs/system/rxjs-operators.min.js",
 

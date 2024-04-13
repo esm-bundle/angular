@@ -2,11 +2,44 @@ import { join, dirname } from "node:path";
 import { createRequire } from "node:module";
 import { fileURLToPath } from "node:url";
 import terser from "@rollup/plugin-terser";
+import { babel } from "@rollup/plugin-babel";
+import replace from "@rollup/plugin-replace";
+import { createEs2015LinkerPlugin } from "@angular/compiler-cli/linker/babel";
+import {
+  ConsoleLogger,
+  NodeJSFileSystem,
+  LogLevel,
+} from "@angular/compiler-cli";
 
 const require = createRequire(import.meta.url);
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
+/** File system used by the Angular linker plugin. */
+const fileSystem = new NodeJSFileSystem();
+/** Logger used by the Angular linker plugin. */
+const logger = new ConsoleLogger(LogLevel.info);
+/**
+ * The linker plugin is used to make output files AOT compatible, so they don't
+ * require the `@angular/compiler` at runtime.
+ */
+const linkerPlugin = createEs2015LinkerPlugin({
+  fileSystem,
+  logger,
+  linkerJitMode: false,
+});
+
 export const packages = [
+  // ########################################################################
+  // tslib
+  {
+    name: "tslib",
+    input: join(__dirname, `node_modules/tslib/tslib.es6.js`),
+    outputFile: "tslib",
+    packageJson: require("tslib/package.json"),
+    external: [],
+  },
+  // ########################################################################
+
   // ########################################################################
   // @angular/animations
   {
@@ -326,6 +359,15 @@ function createConfig({
       banner: `/* esm-bundle - ${name}@${packageJson.version} - ${format} format - Use of this source code is governed by an MIT-style license that can be found in the LICENSE file at https://angular.io/license */`,
     },
     plugins: [
+      babel({ plugins: [linkerPlugin] }),
+
+      !prod &&
+        replace({
+          ngDevMode: true,
+          ngJitMode: false,
+          ngI18nClosureMode: false,
+        }),
+
       prod &&
         terser({
           format: {

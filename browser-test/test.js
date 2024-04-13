@@ -1,7 +1,7 @@
 describe("@esm-bundle/angular", () => {
   describe("@angular/animations", () => {
     [
-      ["angular-animations", "AnimatiomBuilder"],
+      ["angular-animations", "AnimationBuilder"],
       ["angular-animations-browser", "AnimationDriver"],
     ].forEach(([filename, exportName]) => {
       it(`can load the System.register bundle`, async () => {
@@ -35,17 +35,21 @@ describe("@esm-bundle/angular", () => {
   });
 
   describe("@angular/compiler", () => {
-    [["angular-compiler", "Compiler"]].forEach(([filename, exportName]) => {
-      it(`can load the System.register bundle`, async () => {
-        const m = await System.import(`/base/system/es2022/${filename}.js`);
-        expect(m[exportName]).toBeDefined();
-      });
+    [["angular-compiler", "compileComponentClassMetadata"]].forEach(
+      ([filename, exportName]) => {
+        it(`can load the System.register bundle`, async () => {
+          const m = await System.import(`/base/system/es2022/${filename}.js`);
+          expect(m[exportName]).toBeDefined();
+        });
 
-      it(`can load the System.register prod bundle`, async () => {
-        const m = await System.import(`/base/system/es2022/${filename}.min.js`);
-        expect(m[exportName]).toBeDefined();
-      });
-    });
+        it(`can load the System.register prod bundle`, async () => {
+          const m = await System.import(
+            `/base/system/es2022/${filename}.min.js`,
+          );
+          expect(m[exportName]).toBeDefined();
+        });
+      },
+    );
   });
 
   describe("@angular/core", () => {
