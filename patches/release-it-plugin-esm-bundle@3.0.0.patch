@@ -1,0 +1,15 @@
+diff --git a/index.js b/index.js
+index 6b5f3aead4855517f078cb5544d27a7737bd0362..0afed99684ca5b49d09147ee74a648b1f0392131 100644
+--- a/index.js
++++ b/index.js
+@@ -41,7 +41,9 @@ function getDepName() {
+ }
+ 
+ function getDepVersion() {
+-  const depName = getDepName();
++  // Since we have all the packages within a single repository we
++  // may rely on the primary core package version.
++  const depName = '@angular/core';
+   const dependency = (packageJson.devDependencies || {})[depName];
+   if (!dependency) {
+     throw Error(`Missing package.json dependency '${depName}'`);
