@@ -1,35 +1,41 @@
-# autopublish-template
+# angular
 
-[![npm version](https://img.shields.io/npm/v/@esm-bundle/autopublish-template.svg?style=flat)](https://www.npmjs.com/package/@esm-bundle/autopublish-template) [![build status](https://travis-ci.com/esm-bundle/autopublish-template.svg?branch=master)](https://travis-ci.com/esm-bundle/autopublish-template) [![](https://data.jsdelivr.com/v1/package/npm/@esm-bundle/autopublish-template/badge)](https://www.jsdelivr.com/package/npm/@esm-bundle/autopublish-template)
+[![npm version](https://img.shields.io/npm/v/@esm-bundle/angular.svg?style=flat)](https://www.npmjs.com/package/@esm-bundle/angular) [![build status](https://travis-ci.com/esm-bundle/angular.svg?branch=master)](https://travis-ci.com/esm-bundle/angular) [![](https://data.jsdelivr.com/v1/package/npm/@esm-bundle/angular/badge)](https://www.jsdelivr.com/package/npm/@esm-bundle/angular)
 
-["What is this" blog post](https://medium.com/@joeldenning/an-esm-bundle-for-any-npm-package-5f850db0e04d)
+> This repository contains all the Angular packages and their subpackages.
 
-[Instructions for creating a new esm-bundle repo](https://github.com/esm-bundle/new-repo-instructions)
+## Packages
 
-A repo that tests automatic detection of upstream publishes and the publishing of `@esm-bundle` versions of them.
+- @angular/animations
+- @angular/animations/browser
+- @angular/common
+- @angular/common/http
+- @angular/common/upgrade
+- @angular/compiler
+- @angular/core/primitives/signals
+- @angular/core
+- @angular/core/rxjs-interop
+- @angular/elements
+- @angular/forms
+- @angular/localize
+- @angular/localize/init
+- @angular/platform-browser
+- @angular/platform-browser/animations
+- @angular/platform-browser/animations/async
+- @angular/platform-browser-dynamic
+- @angular/router
+- @angular/router/upgrade
+- @angular/service-worker
+- @angular/service-worker/config
+- @angular/upgrade
+- @angular/upgrade/static
 
-Upstream repo at https://github.com/joeldenning/autopublish-template.
+Their filenames follow the same structure. For example, `@angular/animations/browser` becomes `angular-animations-browser.js` and `@angular/core/primitives/signals` becomes `angular-core-primitives-signals.js`.
 
-## JS Delivr
+The ESM versions are hosted under `@esm-bundle/angular/es2022/{filename}.js` while the SystemJS versions are located at `@esm-bundle/angular/system/es2022/${filename}.js`.
 
-https://cdn.jsdelivr.net/npm/@esm-bundle/autopublish-template/esm/index.js
+For example:
 
-https://cdn.jsdelivr.net/npm/@esm-bundle/autopublish-template/system/index.js
+https://cdn.jsdelivr.net/npm/@esm-bundle/angular/es2022/angular-core-primitives-signals.js
 
-## Unpkg
-
-https://unpkg.com/@esm-bundle/autopublish-template/esm/index.js
-
-https://unpkg.com/@esm-bundle/autopublish-template/system/index.js
-
-## Npm
-
-```sh
-npm install --save autopublish-template@npm:@esm-bundle/autopublish-template
-```
-
-## Yarn
-
-```sh
-yarn add autopublish-template@npm:@esm-bundle/autopublish-template
-```
+https://cdn.jsdelivr.net/npm/@esm-bundle/angular/system/es2022/angular-core-primitives-signals.js
