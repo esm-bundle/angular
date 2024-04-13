@@ -1,8 +1,6 @@
 .prettierignore
 .gitignore
 LICENSE
-yarn.lock
-yarn-error.log
 esm/
 system/
 .DS_Store
@@ -11,3 +9,4 @@ karma.conf.cjs
 .nvmrc
 .husky
 pnpm-lock.yaml
+es2022
