@@ -1,0 +1,11 @@
+{
+  "github": {
+    "release": true
+  },
+  "plugins": {
+    "release-it-plugin-esm-bundle": {}
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
