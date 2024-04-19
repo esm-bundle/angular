@@ -1,6 +1,5 @@
 import terser from '@rollup/plugin-terser';
 import { babel } from '@rollup/plugin-babel';
-import replace from '@rollup/plugin-replace';
 import { createEs2015LinkerPlugin } from '@angular/compiler-cli/linker/babel';
 import {
   ConsoleLogger,
@@ -66,13 +65,6 @@ function createConfig({
     },
     plugins: [
       babel({ plugins: [linkerPlugin] }),
-
-      !prod &&
-        replace({
-          ngDevMode: true,
-          ngJitMode: false,
-          ngI18nClosureMode: false,
-        }),
 
       prod &&
         terser({
