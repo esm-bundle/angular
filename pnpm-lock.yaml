@@ -53,8 +53,8 @@ devDependencies:
     specifier: 6.0.4
     version: 6.0.4(@babel/core@7.24.4)(rollup@4.14.3)
   '@rollup/plugin-replace':
-    specifier: 5.0.5
-    version: 5.0.5(rollup@4.14.3)
+    specifier: 5.0.7
+    version: 5.0.7(rollup@4.14.3)
   '@rollup/plugin-terser':
     specifier: 0.4.4
     version: 0.4.4(rollup@4.14.3)
@@ -800,8 +800,8 @@ packages:
       rollup: 4.14.3
     dev: true
 
-  /@rollup/plugin-replace@5.0.5(rollup@4.14.3):
-    resolution: {integrity: sha512-rYO4fOi8lMaTg/z5Jb+hKnrHHVn8j2lwkqwyS4kTRhKyWOLf2wST2sWXr4WzWiTcoHTp2sTjqUbqIj2E39slKQ==}
+  /@rollup/plugin-replace@5.0.7(rollup@4.14.3):
+    resolution: {integrity: sha512-PqxSfuorkHz/SPpyngLyg5GCEkOcee9M1bkxiVDr41Pd61mqP1PLOoDPbpl44SB2mQGKwV/In74gqQmGITOhEQ==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       rollup: ^1.20.0||^2.0.0||^3.0.0||^4.0.0
@@ -838,7 +838,7 @@ packages:
       rollup:
         optional: true
     dependencies:
-      '@types/estree': 1.0.0
+      '@types/estree': 1.0.5
       estree-walker: 2.0.2
       picomatch: 2.3.1
       rollup: 4.14.3
@@ -1032,10 +1032,6 @@ packages:
 
   /@types/cors@2.8.12:
     resolution: {integrity: sha512-vt+kDhq/M2ayberEtJcIN/hxXy1Pk+59g2FV/ZQceeaTyCtCucjL2Q7FXlFjtWn4n15KCr1NE2lNNFhp0lEThw==}
-    dev: true
-
-  /@types/estree@1.0.0:
-    resolution: {integrity: sha512-WulqXMDUTYAXCjZnk6JtIHPigp55cVtDgDrO2gHRwhyJto21+1zbVCtOYB2L1F9w4qCQ0rOGWBnBe0FNTiEJIQ==}
     dev: true
 
   /@types/estree@1.0.5:
