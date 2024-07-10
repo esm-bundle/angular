@@ -55,6 +55,7 @@ describe('@esm-bundle/angular', () => {
   describe('@angular/core', () => {
     [
       ['angular-core', 'Injectable'],
+      ['angular-core-primitives-event-dispatch', 'EventDispatcher'],
       ['angular-core-primitives-signals', 'consumerMarkDirty'],
       ['angular-core-rxjs-interop', 'takeUntilDestroyed'],
     ].forEach(([filename, exportName]) => {
