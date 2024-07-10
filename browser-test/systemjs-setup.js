@@ -18,8 +18,9 @@ document.head.appendChild(
 
           "@angular/compiler": "/base/system/es2022/angular-compiler.min.js",
 
+          "@angular/core/primitives/event-dispatch": "/base/system/es2022/angular-core-primitives-event-dispatch.min.js",
           "@angular/core/primitives/signals": "/base/system/es2022/angular-core-primitives-signals.min.js",
-          "@angular/core": "/base/system/es2022/angular-core.min.js",
+          "@angular/core": "/base/system/es2022/angular-core.js",
           "@angular/core/rxjs-interop": "/base/system/es2022/angular-core-rxjs-interop.min.js",
 
           "@angular/elements": "/base/system/es2022/angular-elements.min.js",

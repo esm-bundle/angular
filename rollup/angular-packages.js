@@ -80,6 +80,16 @@ export const angularPackages = [
   // ########################################################################
   // @angular/core
   {
+    name: '@angular/core/primitives/event-dispatch',
+    input: join(
+      nodeModulesPath,
+      `@angular/core/fesm2022/primitives/event-dispatch.mjs`,
+    ),
+    outputFile: 'angular-core-primitives-event-dispatch',
+    packageJson: require('@angular/core/package.json'),
+    external: ['rxjs', 'rxjs/operators'],
+  },
+  {
     name: '@angular/core/primitives/signals',
     input: join(
       nodeModulesPath,
@@ -94,7 +104,12 @@ export const angularPackages = [
     input: join(nodeModulesPath, `@angular/core/fesm2022/core.mjs`),
     outputFile: 'angular-core',
     packageJson: require('@angular/core/package.json'),
-    external: ['rxjs', 'rxjs/operators', '@angular/core/primitives/signals'],
+    external: [
+      'rxjs',
+      'rxjs/operators',
+      '@angular/core/primitives/event-dispatch',
+      '@angular/core/primitives/signals',
+    ],
   },
   {
     name: '@angular/core/rxjs-interop',
@@ -180,7 +195,12 @@ export const angularPackages = [
     ),
     outputFile: 'angular-platform-browser-animations-async',
     packageJson: require('@angular/platform-browser/package.json'),
-    external: ['@angular/core', '@angular/common', '@angular/platform-browser'],
+    external: [
+      '@angular/core',
+      '@angular/common',
+      '@angular/animations/browser',
+      '@angular/platform-browser',
+    ],
   },
   // ########################################################################
 
@@ -260,7 +280,7 @@ export const angularPackages = [
     input: join(nodeModulesPath, `@angular/upgrade/fesm2022/upgrade.mjs`),
     outputFile: 'angular-upgrade',
     packageJson: require('@angular/upgrade/package.json'),
-    external: ['@angular/core', '@angular/platform-browser-dynamic'],
+    external: ['tslib', '@angular/core', '@angular/platform-browser-dynamic'],
   },
   {
     name: '@angular/upgrade/static',
