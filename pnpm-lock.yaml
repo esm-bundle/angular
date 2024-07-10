@@ -53,8 +53,8 @@ devDependencies:
     specifier: 6.0.4
     version: 6.0.4(@babel/core@7.24.7)(rollup@4.18.1)
   '@rollup/plugin-replace':
-    specifier: 5.0.5
-    version: 5.0.5(rollup@4.18.1)
+    specifier: 5.0.7
+    version: 5.0.7(rollup@4.18.1)
   '@rollup/plugin-terser':
     specifier: 0.4.4
     version: 0.4.4(rollup@4.18.1)
@@ -755,8 +755,8 @@ packages:
       - supports-color
     dev: true
 
-  /@rollup/plugin-replace@5.0.5(rollup@4.18.1):
-    resolution: {integrity: sha512-rYO4fOi8lMaTg/z5Jb+hKnrHHVn8j2lwkqwyS4kTRhKyWOLf2wST2sWXr4WzWiTcoHTp2sTjqUbqIj2E39slKQ==}
+  /@rollup/plugin-replace@5.0.7(rollup@4.18.1):
+    resolution: {integrity: sha512-PqxSfuorkHz/SPpyngLyg5GCEkOcee9M1bkxiVDr41Pd61mqP1PLOoDPbpl44SB2mQGKwV/In74gqQmGITOhEQ==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       rollup: ^1.20.0||^2.0.0||^3.0.0||^4.0.0
