@@ -26,14 +26,14 @@ devDependencies:
     specifier: 18.1.4
     version: 18.1.4(rxjs@7.8.1)(zone.js@0.14.7)
   '@angular/elements':
-    specifier: 18.1.3
-    version: 18.1.3(@angular/core@18.1.4)(rxjs@7.8.1)
+    specifier: 18.1.4
+    version: 18.1.4(@angular/core@18.1.4)(rxjs@7.8.1)
   '@angular/forms':
     specifier: 18.1.4
     version: 18.1.4(@angular/common@18.1.4)(@angular/core@18.1.4)(@angular/platform-browser@18.1.4)(rxjs@7.8.1)
   '@angular/localize':
-    specifier: 18.1.3
-    version: 18.1.3(@angular/compiler-cli@18.1.4)(@angular/compiler@18.1.4)
+    specifier: 18.1.4
+    version: 18.1.4(@angular/compiler-cli@18.1.4)(@angular/compiler@18.1.4)
   '@angular/platform-browser':
     specifier: 18.1.4
     version: 18.1.4(@angular/animations@18.1.4)(@angular/common@18.1.4)(@angular/core@18.1.4)
@@ -189,11 +189,11 @@ packages:
       zone.js: 0.14.7
     dev: true
 
-  /@angular/elements@18.1.3(@angular/core@18.1.4)(rxjs@7.8.1):
-    resolution: {integrity: sha512-3E2bytC3BopFkkEkGF0efrKHMVhbWb8zSskm5YBg17dx+LIuRcTM7L0k2sKrb3jfBnicUEoBRVU0pwzXZyUG2g==}
+  /@angular/elements@18.1.4(@angular/core@18.1.4)(rxjs@7.8.1):
+    resolution: {integrity: sha512-lvgSfNwN1bNKSc/NAZfRBNYJr2ASeA4PVg5Hcsujsx+PB0bxPyp95mPNO9cONXNXHrVVKtVSJ+t7kqVa8zmwdg==}
     engines: {node: ^18.19.1 || ^20.11.1 || >=22.0.0}
     peerDependencies:
-      '@angular/core': 18.1.3
+      '@angular/core': 18.1.4
       rxjs: ^6.5.3 || ^7.4.0
     dependencies:
       '@angular/core': 18.1.4(rxjs@7.8.1)(zone.js@0.14.7)
@@ -217,13 +217,13 @@ packages:
       tslib: 2.6.3
     dev: true
 
-  /@angular/localize@18.1.3(@angular/compiler-cli@18.1.4)(@angular/compiler@18.1.4):
-    resolution: {integrity: sha512-C7D7m9LkcvK0byVXmBrLBlAhEBFO5ZCIQJ+tDd/vUq1ALdkMlG4RkwVsrQxLIIatp88p21V0M0ZQNc3IfgileQ==}
+  /@angular/localize@18.1.4(@angular/compiler-cli@18.1.4)(@angular/compiler@18.1.4):
+    resolution: {integrity: sha512-GqrVYc3PwYFd9nDbOV0nL2ZhsLfb1LOZLnpsGqTBJT6zfmbqTUnwQWjHmj6SoGzTQl9r9OAvawaMrICzB6Rrfw==}
     engines: {node: ^18.19.1 || ^20.11.1 || >=22.0.0}
     hasBin: true
     peerDependencies:
-      '@angular/compiler': 18.1.3
-      '@angular/compiler-cli': 18.1.3
+      '@angular/compiler': 18.1.4
+      '@angular/compiler-cli': 18.1.4
     dependencies:
       '@angular/compiler': 18.1.4(@angular/core@18.1.4)
       '@angular/compiler-cli': 18.1.4(@angular/compiler@18.1.4)(typescript@5.5.4)
