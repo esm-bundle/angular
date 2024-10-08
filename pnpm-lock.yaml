@@ -21,7 +21,7 @@ devDependencies:
     version: 18.2.7(@angular/core@18.2.7)
   '@angular/compiler-cli':
     specifier: 18.2.7
-    version: 18.2.7(@angular/compiler@18.2.7)(typescript@5.6.2)
+    version: 18.2.7(@angular/compiler@18.2.7)(typescript@5.6.3)
   '@angular/core':
     specifier: 18.2.7
     version: 18.2.7(rxjs@7.8.1)(zone.js@0.14.10)
@@ -90,7 +90,7 @@ devDependencies:
     version: 4.0.0(prettier@3.3.3)
   release-it:
     specifier: 17.7.0
-    version: 17.7.0(typescript@5.6.2)
+    version: 17.7.0(typescript@5.6.3)
   release-it-plugin-esm-bundle:
     specifier: 3.0.0
     version: 3.0.0(patch_hash=hbzjlhnwis6sjsbte32r5b7g5i)(release-it@17.7.0)
@@ -107,8 +107,8 @@ devDependencies:
     specifier: 2.7.0
     version: 2.7.0
   typescript:
-    specifier: 5.6.2
-    version: 5.6.2
+    specifier: 5.6.3
+    version: 5.6.3
 
 packages:
 
@@ -142,7 +142,7 @@ packages:
       tslib: 2.7.0
     dev: true
 
-  /@angular/compiler-cli@18.2.7(@angular/compiler@18.2.7)(typescript@5.6.2):
+  /@angular/compiler-cli@18.2.7(@angular/compiler@18.2.7)(typescript@5.6.3):
     resolution: {integrity: sha512-U7cveObj+rrXH5EC8egAhATCeAAcOceEQDTVIOWmBa0qMR4hOMjtI2XUS2QRuI1Q+fQZ2hVEOW95WVLvEMsANA==}
     engines: {node: ^18.19.1 || ^20.11.1 || >=22.0.0}
     hasBin: true
@@ -158,7 +158,7 @@ packages:
       reflect-metadata: 0.2.2
       semver: 7.6.2
       tslib: 2.7.0
-      typescript: 5.6.2
+      typescript: 5.6.3
       yargs: 17.7.2
     transitivePeerDependencies:
       - supports-color
@@ -226,7 +226,7 @@ packages:
       '@angular/compiler-cli': 18.2.7
     dependencies:
       '@angular/compiler': 18.2.7(@angular/core@18.2.7)
-      '@angular/compiler-cli': 18.2.7(@angular/compiler@18.2.7)(typescript@5.6.2)
+      '@angular/compiler-cli': 18.2.7(@angular/compiler@18.2.7)(typescript@5.6.3)
       '@babel/core': 7.25.2
       '@types/babel__core': 7.20.5
       fast-glob: 3.3.2
@@ -1422,7 +1422,7 @@ packages:
       vary: 1.1.2
     dev: true
 
-  /cosmiconfig@9.0.0(typescript@5.6.2):
+  /cosmiconfig@9.0.0(typescript@5.6.3):
     resolution: {integrity: sha512-itvL5h8RETACmOTFc4UfIyB2RfEHi71Ax6E/PivVxq9NseKbOWpeyHEOIbmAw1rs8Ak0VursQNww7lf7YtUwzg==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -1435,7 +1435,7 @@ packages:
       import-fresh: 3.3.0
       js-yaml: 4.1.0
       parse-json: 5.2.0
-      typescript: 5.6.2
+      typescript: 5.6.3
     dev: true
 
   /cross-spawn@7.0.3:
@@ -3180,11 +3180,11 @@ packages:
     peerDependencies:
       release-it: '>=15.0.0'
     dependencies:
-      release-it: 17.7.0(typescript@5.6.2)
+      release-it: 17.7.0(typescript@5.6.3)
     dev: true
     patched: true
 
-  /release-it@17.7.0(typescript@5.6.2):
+  /release-it@17.7.0(typescript@5.6.3):
     resolution: {integrity: sha512-VL9nBetoLf5k/QiMhtmit762nUAAMyrzjHbqU8z9iwUb7M8NhZjrbMU8rxcEJCWrSNlvsnn2lEbcWBeg/IEI8Q==}
     engines: {node: ^18.18.0 || ^20.9.0 || ^22.0.0}
     hasBin: true
@@ -3194,7 +3194,7 @@ packages:
       async-retry: 1.3.3
       chalk: 5.3.0
       ci-info: 4.0.0
-      cosmiconfig: 9.0.0(typescript@5.6.2)
+      cosmiconfig: 9.0.0(typescript@5.6.3)
       execa: 8.0.1
       git-url-parse: 14.0.0
       globby: 14.0.2
@@ -3713,8 +3713,8 @@ packages:
       is-typedarray: 1.0.0
     dev: true
 
-  /typescript@5.6.2:
-    resolution: {integrity: sha512-NW8ByodCSNCwZeghjN3o+JX5OFH0Ojg6sadjEKY4huZ52TqbJTJnDo5+Tw98lSy63NZvi4n+ez5m2u5d4PkZyw==}
+  /typescript@5.6.3:
+    resolution: {integrity: sha512-hjcS1mhfuyi4WW8IWtjP7brDrG2cuDZukyrYrSauoXGNgx0S7zceP07adYkJycEr56BOUTNPzbInooiN3fn1qw==}
     engines: {node: '>=14.17'}
     hasBin: true
     dev: true
