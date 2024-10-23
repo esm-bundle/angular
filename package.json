@@ -1,6 +1,6 @@
 {
   "name": "@esm-bundle/angular",
-  "version": "18.2.8",
+  "version": "18.2.9",
   "description": "All Angular packages in ESM and SystemJS formats",
   "main": "index.js",
   "module": "esm/index.js",
