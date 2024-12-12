@@ -47,8 +47,8 @@ devDependencies:
     specifier: 19.0.4
     version: 19.0.4(@angular/common@19.0.4)(@angular/core@19.0.4)
   '@angular/upgrade':
-    specifier: 19.0.3
-    version: 19.0.3(@angular/compiler@19.0.4)(@angular/core@19.0.4)(@angular/platform-browser-dynamic@19.0.4)(@angular/platform-browser@19.0.4)
+    specifier: 19.0.4
+    version: 19.0.4(@angular/compiler@19.0.4)(@angular/core@19.0.4)(@angular/platform-browser-dynamic@19.0.4)(@angular/platform-browser@19.0.4)
   '@rollup/plugin-babel':
     specifier: 6.0.4
     version: 6.0.4(@babel/core@7.26.0)(rollup@4.28.1)
@@ -297,14 +297,14 @@ packages:
       tslib: 2.8.1
     dev: true
 
-  /@angular/upgrade@19.0.3(@angular/compiler@19.0.4)(@angular/core@19.0.4)(@angular/platform-browser-dynamic@19.0.4)(@angular/platform-browser@19.0.4):
-    resolution: {integrity: sha512-ZRgiU5ymPE61AMcaWwiSnCHNe3OSZ0BIRamvh7vqLai6X0Ul3Rv1AOiuIPIXUl32N5GZ6pi5jaIuT0O8e5SKxw==}
+  /@angular/upgrade@19.0.4(@angular/compiler@19.0.4)(@angular/core@19.0.4)(@angular/platform-browser-dynamic@19.0.4)(@angular/platform-browser@19.0.4):
+    resolution: {integrity: sha512-EwDUJK9+jjNICVVNzYtBbxdGD2qEzbUXm4Q3DsB0fzwEi4No3o8j2WW208PH26vqDjmZ2MhyefGY9Waxk6jt7g==}
     engines: {node: ^18.19.1 || ^20.11.1 || >=22.0.0}
     peerDependencies:
-      '@angular/compiler': 19.0.3
-      '@angular/core': 19.0.3
-      '@angular/platform-browser': 19.0.3
-      '@angular/platform-browser-dynamic': 19.0.3
+      '@angular/compiler': 19.0.4
+      '@angular/core': 19.0.4
+      '@angular/platform-browser': 19.0.4
+      '@angular/platform-browser-dynamic': 19.0.4
     dependencies:
       '@angular/compiler': 19.0.4(@angular/core@19.0.4)
       '@angular/core': 19.0.4(rxjs@7.8.1)(zone.js@0.15.0)
