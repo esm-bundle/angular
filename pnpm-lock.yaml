@@ -77,8 +77,8 @@ devDependencies:
     specifier: 5.1.0
     version: 5.1.0(karma@6.4.4)
   mocha:
-    specifier: 11.0.1
-    version: 11.0.1
+    specifier: 11.1.0
+    version: 11.1.0
   pinst:
     specifier: 3.0.0
     version: 3.0.0
@@ -2851,8 +2851,8 @@ packages:
       minimist: 1.2.8
     dev: true
 
-  /mocha@11.0.1:
-    resolution: {integrity: sha512-+3GkODfsDG71KSCQhc4IekSW+ItCK/kiez1Z28ksWvYhKXV/syxMlerR/sC7whDp7IyreZ4YxceMLdTs5hQE8A==}
+  /mocha@11.1.0:
+    resolution: {integrity: sha512-8uJR5RTC2NgpY3GrYcgpZrsEd9zKbPDpob1RezyR2upGHRQtHWofmzTMzTMSV6dru3tj5Ukt0+Vnq1qhFEEwAg==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     hasBin: true
     dependencies:
@@ -2873,8 +2873,8 @@ packages:
       strip-json-comments: 3.1.1
       supports-color: 8.1.1
       workerpool: 6.5.1
-      yargs: 16.2.0
-      yargs-parser: 20.2.9
+      yargs: 17.7.2
+      yargs-parser: 21.1.1
       yargs-unparser: 2.0.0
     dev: true
 
