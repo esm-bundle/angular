@@ -89,11 +89,11 @@ devDependencies:
     specifier: 4.0.0
     version: 4.0.0(prettier@3.4.2)
   release-it:
-    specifier: 18.1.1
-    version: 18.1.1(@types/node@20.14.10)(typescript@5.7.3)
+    specifier: 18.1.2
+    version: 18.1.2(@types/node@20.14.10)(typescript@5.7.3)
   release-it-plugin-esm-bundle:
     specifier: 3.0.0
-    version: 3.0.0(patch_hash=hbzjlhnwis6sjsbte32r5b7g5i)(release-it@18.1.1)
+    version: 3.0.0(patch_hash=hbzjlhnwis6sjsbte32r5b7g5i)(release-it@18.1.2)
   rimraf:
     specifier: 6.0.1
     version: 6.0.1
@@ -3357,17 +3357,17 @@ packages:
       rc: 1.2.8
     dev: true
 
-  /release-it-plugin-esm-bundle@3.0.0(patch_hash=hbzjlhnwis6sjsbte32r5b7g5i)(release-it@18.1.1):
+  /release-it-plugin-esm-bundle@3.0.0(patch_hash=hbzjlhnwis6sjsbte32r5b7g5i)(release-it@18.1.2):
     resolution: {integrity: sha512-3N85d6C37Dk1ArUazjOz4nwubOGZS6fL7QLG1Hr0ZXAz7CDLiBfEeq3VccHkT8U0Ho797gWDA2FY36kVDmmpHw==}
     peerDependencies:
       release-it: '>=15.0.0'
     dependencies:
-      release-it: 18.1.1(@types/node@20.14.10)(typescript@5.7.3)
+      release-it: 18.1.2(@types/node@20.14.10)(typescript@5.7.3)
     dev: true
     patched: true
 
-  /release-it@18.1.1(@types/node@20.14.10)(typescript@5.7.3):
-    resolution: {integrity: sha512-rC/iVKri7U/Kp/Myujmsf7HG2gPq8My/LBVB72TbZZYKD14fmgDZC4Eyn8DD7Yh2h/G/YCCsRe1QQPrjXj9Mzg==}
+  /release-it@18.1.2(@types/node@20.14.10)(typescript@5.7.3):
+    resolution: {integrity: sha512-HOVRcicehCgoCsPFOu0iCBlEC8GDOoKS5s6ICkWmqomGEoZtRQ88D3RCsI5MciSU8vAQU+aWZW2z57NQNNb74w==}
     engines: {node: ^20.9.0 || >=22.0.0}
     hasBin: true
     dependencies:
@@ -3391,7 +3391,7 @@ packages:
       proxy-agent: 6.5.0
       semver: 7.6.3
       shelljs: 0.8.5
-      undici: 6.21.0
+      undici: 6.21.1
       update-notifier: 7.3.1
       url-join: 5.0.0
       wildcard-match: 5.1.4
@@ -3884,8 +3884,8 @@ packages:
     resolution: {integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==}
     dev: true
 
-  /undici@6.21.0:
-    resolution: {integrity: sha512-BUgJXc752Kou3oOIuU1i+yZZypyZRqNPW0vqoMPl8VaoalSfeR0D8/t4iAS3yirs79SSMTxTag+ZC86uswv+Cw==}
+  /undici@6.21.1:
+    resolution: {integrity: sha512-q/1rj5D0/zayJB2FraXdaWxbhWiNKDvu8naDT2dl1yTlvJp4BLtOcp2a5BvgGNQpYYJzau7tf1WgKv3b+7mqpQ==}
     engines: {node: '>=18.17'}
     dev: true
 
