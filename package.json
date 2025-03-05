@@ -38,10 +38,10 @@
   "devDependencies": {
     "@angular/animations": "19.2.0",
     "@angular/common": "19.2.0",
-    "@angular/compiler": "19.2.0",
-    "@angular/compiler-cli": "19.2.0",
+    "@angular/compiler": "19.2.1",
+    "@angular/compiler-cli": "19.2.1",
     "@angular/core": "19.2.0",
-    "@angular/elements": "19.2.0",
+    "@angular/elements": "19.2.1",
     "@angular/forms": "19.2.0",
     "@angular/localize": "19.2.0",
     "@angular/platform-browser": "19.2.0",
