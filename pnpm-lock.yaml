@@ -59,8 +59,8 @@ devDependencies:
     specifier: 0.4.4
     version: 0.4.4(rollup@4.46.3)
   chai:
-    specifier: 5.2.1
-    version: 5.2.1
+    specifier: 5.3.1
+    version: 5.3.1
   concurrently:
     specifier: 9.2.0
     version: 9.2.0
@@ -1495,8 +1495,8 @@ packages:
     resolution: {integrity: sha512-rPQy70G6AGUMnbwS1z6Xg+RkHYPAi18ihs47GH0jcxIG7wArmPgY3XbS2sRdBbxJljp3thdT8BIqv9ccCypiPA==}
     dev: true
 
-  /chai@5.2.1:
-    resolution: {integrity: sha512-5nFxhUrX0PqtyogoYOA8IPswy5sZFTOsBFl/9bNsmDLgsxYTzSZQJDPppDnZPTQbzSEm0hqGjWPzRemQCYbD6A==}
+  /chai@5.3.1:
+    resolution: {integrity: sha512-48af6xm9gQK8rhIcOxWwdGzIervm8BVTin+yRp9HEvU20BtVZ2lBywlIJBzwaDtvo0FvjeL7QdCADoUoqIbV3A==}
     engines: {node: '>=18'}
     dependencies:
       assertion-error: 2.0.1
