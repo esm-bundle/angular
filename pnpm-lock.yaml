@@ -77,8 +77,8 @@ devDependencies:
     specifier: 5.1.0
     version: 5.1.0(karma@6.4.4)
   mocha:
-    specifier: 11.7.2
-    version: 11.7.2
+    specifier: 11.7.3
+    version: 11.7.3
   pinst:
     specifier: 3.0.0
     version: 3.0.0
@@ -2735,8 +2735,8 @@ packages:
       minimist: 1.2.8
     dev: true
 
-  /mocha@11.7.2:
-    resolution: {integrity: sha512-lkqVJPmqqG/w5jmmFtiRvtA2jkDyNVUcefFJKb2uyX4dekk8Okgqop3cgbFiaIvj8uCRJVTP5x9dfxGyXm2jvQ==}
+  /mocha@11.7.3:
+    resolution: {integrity: sha512-iorDKDzBKgVk/npVkW2S+b57ekA9+xKWijVvNpgPMl1odxeB4HavgiydLN54Lhyn/jpcM+Z/BohCzIvHmfaPCw==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     hasBin: true
     dependencies:
