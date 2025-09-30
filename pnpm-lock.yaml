@@ -21,7 +21,7 @@ devDependencies:
     version: 19.2.1(@angular/core@19.2.0)
   '@angular/compiler-cli':
     specifier: 19.2.1
-    version: 19.2.1(@angular/compiler@19.2.1)(typescript@5.9.2)
+    version: 19.2.1(@angular/compiler@19.2.1)(typescript@5.9.3)
   '@angular/core':
     specifier: 19.2.0
     version: 19.2.0(rxjs@7.8.2)(zone.js@0.15.0)
@@ -107,8 +107,8 @@ devDependencies:
     specifier: 2.8.1
     version: 2.8.1
   typescript:
-    specifier: 5.9.2
-    version: 5.9.2
+    specifier: 5.9.3
+    version: 5.9.3
 
 packages:
 
@@ -142,7 +142,7 @@ packages:
       tslib: 2.8.1
     dev: true
 
-  /@angular/compiler-cli@19.2.1(@angular/compiler@19.2.1)(typescript@5.9.2):
+  /@angular/compiler-cli@19.2.1(@angular/compiler@19.2.1)(typescript@5.9.3):
     resolution: {integrity: sha512-5uuUx0ibX7cQP7eSBaJzfZlU0Hbe0kLwc85uCnH47hfzCsd3u2VU623IZIN7ctaInoOFBjl9fUUqKnFuYibC/w==}
     engines: {node: ^18.19.1 || ^20.11.1 || >=22.0.0}
     hasBin: true
@@ -158,7 +158,7 @@ packages:
       reflect-metadata: 0.2.2
       semver: 7.6.3
       tslib: 2.8.1
-      typescript: 5.9.2
+      typescript: 5.9.3
       yargs: 17.7.2
     transitivePeerDependencies:
       - supports-color
@@ -226,7 +226,7 @@ packages:
       '@angular/compiler-cli': 19.2.0
     dependencies:
       '@angular/compiler': 19.2.1(@angular/core@19.2.0)
-      '@angular/compiler-cli': 19.2.1(@angular/compiler@19.2.1)(typescript@5.9.2)
+      '@angular/compiler-cli': 19.2.1(@angular/compiler@19.2.1)(typescript@5.9.3)
       '@babel/core': 7.26.9
       '@types/babel__core': 7.20.5
       fast-glob: 3.3.3
@@ -3628,8 +3628,8 @@ packages:
       mime-types: 2.1.35
     dev: true
 
-  /typescript@5.9.2:
-    resolution: {integrity: sha512-CWBzXQrc/qOkhidw1OzBTQuYRbfyxDXJMVJ1XNwUHGROVmuaeiEm3OslpZ1RV96d7SKKjZKrSJu3+t/xlw3R9A==}
+  /typescript@5.9.3:
+    resolution: {integrity: sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw==}
     engines: {node: '>=14.17'}
     hasBin: true
     dev: true
