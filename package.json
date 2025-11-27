@@ -37,7 +37,7 @@
   "homepage": "https://github.com/esm-bundle/angular#readme",
   "devDependencies": {
     "@angular/animations": "19.2.0",
-    "@angular/common": "19.2.0",
+    "@angular/common": "19.2.16",
     "@angular/compiler": "19.2.1",
     "@angular/compiler-cli": "19.2.1",
     "@angular/core": "19.2.0",
