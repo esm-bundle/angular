@@ -65,7 +65,7 @@
     "release-it": "19.1.0",
     "release-it-plugin-esm-bundle": "3.0.0",
     "rimraf": "6.1.2",
-    "rollup": "4.53.5",
+    "rollup": "4.54.0",
     "rxjs": "7.8.2",
     "tslib": "2.8.1",
     "typescript": "5.9.3"
