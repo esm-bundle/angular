@@ -12,10 +12,10 @@ patchedDependencies:
 devDependencies:
   '@angular/animations':
     specifier: 19.2.20
-    version: 19.2.20(@angular/common@19.2.20)(@angular/core@19.2.0)
+    version: 19.2.20(@angular/common@19.2.20)(@angular/core@19.2.20)
   '@angular/common':
     specifier: 19.2.20
-    version: 19.2.20(@angular/core@19.2.0)(rxjs@7.8.2)
+    version: 19.2.20(@angular/core@19.2.20)(rxjs@7.8.2)
   '@angular/compiler':
     specifier: 19.2.20
     version: 19.2.20
@@ -23,32 +23,32 @@ devDependencies:
     specifier: 19.2.20
     version: 19.2.20(@angular/compiler@19.2.20)(typescript@6.0.2)
   '@angular/core':
-    specifier: 19.2.0
-    version: 19.2.0(rxjs@7.8.2)(zone.js@0.15.0)
+    specifier: 19.2.20
+    version: 19.2.20(rxjs@7.8.2)(zone.js@0.15.0)
   '@angular/elements':
     specifier: 19.2.20
-    version: 19.2.20(@angular/core@19.2.0)(rxjs@7.8.2)
+    version: 19.2.20(@angular/core@19.2.20)(rxjs@7.8.2)
   '@angular/forms':
     specifier: 19.2.20
-    version: 19.2.20(@angular/common@19.2.20)(@angular/core@19.2.0)(@angular/platform-browser@19.2.20)(rxjs@7.8.2)
+    version: 19.2.20(@angular/common@19.2.20)(@angular/core@19.2.20)(@angular/platform-browser@19.2.20)(rxjs@7.8.2)
   '@angular/localize':
     specifier: 19.2.20
     version: 19.2.20(@angular/compiler-cli@19.2.20)(@angular/compiler@19.2.20)
   '@angular/platform-browser':
     specifier: 19.2.20
-    version: 19.2.20(@angular/animations@19.2.20)(@angular/common@19.2.20)(@angular/core@19.2.0)
+    version: 19.2.20(@angular/animations@19.2.20)(@angular/common@19.2.20)(@angular/core@19.2.20)
   '@angular/platform-browser-dynamic':
     specifier: 19.2.20
-    version: 19.2.20(@angular/common@19.2.20)(@angular/compiler@19.2.20)(@angular/core@19.2.0)(@angular/platform-browser@19.2.20)
+    version: 19.2.20(@angular/common@19.2.20)(@angular/compiler@19.2.20)(@angular/core@19.2.20)(@angular/platform-browser@19.2.20)
   '@angular/router':
     specifier: 19.2.20
-    version: 19.2.20(@angular/common@19.2.20)(@angular/core@19.2.0)(@angular/platform-browser@19.2.20)(rxjs@7.8.2)
+    version: 19.2.20(@angular/common@19.2.20)(@angular/core@19.2.20)(@angular/platform-browser@19.2.20)(rxjs@7.8.2)
   '@angular/service-worker':
     specifier: 19.2.20
-    version: 19.2.20(@angular/core@19.2.0)(rxjs@7.8.2)
+    version: 19.2.20(@angular/core@19.2.20)(rxjs@7.8.2)
   '@angular/upgrade':
     specifier: 19.2.20
-    version: 19.2.20(@angular/compiler@19.2.20)(@angular/core@19.2.0)(@angular/platform-browser-dynamic@19.2.20)(@angular/platform-browser@19.2.20)
+    version: 19.2.20(@angular/compiler@19.2.20)(@angular/core@19.2.20)(@angular/platform-browser-dynamic@19.2.20)(@angular/platform-browser@19.2.20)
   '@rollup/plugin-babel':
     specifier: 7.0.0
     version: 7.0.0(@babel/core@7.26.9)(rollup@4.60.0)
@@ -120,26 +120,26 @@ packages:
       '@jridgewell/trace-mapping': 0.3.25
     dev: true
 
-  /@angular/animations@19.2.20(@angular/common@19.2.20)(@angular/core@19.2.0):
+  /@angular/animations@19.2.20(@angular/common@19.2.20)(@angular/core@19.2.20):
     resolution: {integrity: sha512-TQ4OCazTRAge45FIp3bzO/chImObmasPzprgEzKSDckjGbshAWlYXeCe3U8YaGNaWnkzByyIRNV4P4aHe63M0w==}
     engines: {node: ^18.19.1 || ^20.11.1 || >=22.0.0}
     peerDependencies:
       '@angular/common': 19.2.20
       '@angular/core': 19.2.20
     dependencies:
-      '@angular/common': 19.2.20(@angular/core@19.2.0)(rxjs@7.8.2)
-      '@angular/core': 19.2.0(rxjs@7.8.2)(zone.js@0.15.0)
+      '@angular/common': 19.2.20(@angular/core@19.2.20)(rxjs@7.8.2)
+      '@angular/core': 19.2.20(rxjs@7.8.2)(zone.js@0.15.0)
       tslib: 2.8.1
     dev: true
 
-  /@angular/common@19.2.20(@angular/core@19.2.0)(rxjs@7.8.2):
+  /@angular/common@19.2.20(@angular/core@19.2.20)(rxjs@7.8.2):
     resolution: {integrity: sha512-1M3W3FjUUbVKXDMs+yQpBhnkD/pCe0Jn79rPE5W+EGWWxFoLSyGX+fhnRO5m4c9k66p3nvYrikWQ0ZzMv3M5tw==}
     engines: {node: ^18.19.1 || ^20.11.1 || >=22.0.0}
     peerDependencies:
       '@angular/core': 19.2.20
       rxjs: ^6.5.3 || ^7.4.0
     dependencies:
-      '@angular/core': 19.2.0(rxjs@7.8.2)(zone.js@0.15.0)
+      '@angular/core': 19.2.20(rxjs@7.8.2)(zone.js@0.15.0)
       rxjs: 7.8.2
       tslib: 2.8.1
     dev: true
@@ -173,8 +173,8 @@ packages:
       tslib: 2.8.1
     dev: true
 
-  /@angular/core@19.2.0(rxjs@7.8.2)(zone.js@0.15.0):
-    resolution: {integrity: sha512-WKTRltOt3MMWWuhRX7Y9RonKxIYjZeBDE6XRwceHMgaEDS2d8I2D3AIuqizRsgHpJqDPnQnH+vxcek4FivcSGA==}
+  /@angular/core@19.2.20(rxjs@7.8.2)(zone.js@0.15.0):
+    resolution: {integrity: sha512-pxzQh8ouqfE57lJlXjIzXFuRETwkfMVwS+NFCfv2yh01Qtx+vymO8ZClcJMgLPfBYinhBYX+hrRYVSa1nzlkRQ==}
     engines: {node: ^18.19.1 || ^20.11.1 || >=22.0.0}
     peerDependencies:
       rxjs: ^6.5.3 || ^7.4.0
@@ -185,19 +185,19 @@ packages:
       zone.js: 0.15.0
     dev: true
 
-  /@angular/elements@19.2.20(@angular/core@19.2.0)(rxjs@7.8.2):
+  /@angular/elements@19.2.20(@angular/core@19.2.20)(rxjs@7.8.2):
     resolution: {integrity: sha512-0cQx23DDS4ZloJvPvR+mhXzRhwY1hAdUHqqd5scKTnUWDg1RPxK+9Xvt5KfAirx8AlF3niPhWo7ryOCy4VfH4g==}
     engines: {node: ^18.19.1 || ^20.11.1 || >=22.0.0}
     peerDependencies:
       '@angular/core': 19.2.20
       rxjs: ^6.5.3 || ^7.4.0
     dependencies:
-      '@angular/core': 19.2.0(rxjs@7.8.2)(zone.js@0.15.0)
+      '@angular/core': 19.2.20(rxjs@7.8.2)(zone.js@0.15.0)
       rxjs: 7.8.2
       tslib: 2.8.1
     dev: true
 
-  /@angular/forms@19.2.20(@angular/common@19.2.20)(@angular/core@19.2.0)(@angular/platform-browser@19.2.20)(rxjs@7.8.2):
+  /@angular/forms@19.2.20(@angular/common@19.2.20)(@angular/core@19.2.20)(@angular/platform-browser@19.2.20)(rxjs@7.8.2):
     resolution: {integrity: sha512-agi7InbMzop1jrud6L7SlNwnZk3iNolORcFIwBQMvKxLkcJ+ttbSYuM0KAw56IundWHf4dL9GP4cSygm4kUeFA==}
     engines: {node: ^18.19.1 || ^20.11.1 || >=22.0.0}
     peerDependencies:
@@ -206,9 +206,9 @@ packages:
       '@angular/platform-browser': 19.2.20
       rxjs: ^6.5.3 || ^7.4.0
     dependencies:
-      '@angular/common': 19.2.20(@angular/core@19.2.0)(rxjs@7.8.2)
-      '@angular/core': 19.2.0(rxjs@7.8.2)(zone.js@0.15.0)
-      '@angular/platform-browser': 19.2.20(@angular/animations@19.2.20)(@angular/common@19.2.20)(@angular/core@19.2.0)
+      '@angular/common': 19.2.20(@angular/core@19.2.20)(rxjs@7.8.2)
+      '@angular/core': 19.2.20(rxjs@7.8.2)(zone.js@0.15.0)
+      '@angular/platform-browser': 19.2.20(@angular/animations@19.2.20)(@angular/common@19.2.20)(@angular/core@19.2.20)
       rxjs: 7.8.2
       tslib: 2.8.1
     dev: true
@@ -231,7 +231,7 @@ packages:
       - supports-color
     dev: true
 
-  /@angular/platform-browser-dynamic@19.2.20(@angular/common@19.2.20)(@angular/compiler@19.2.20)(@angular/core@19.2.0)(@angular/platform-browser@19.2.20):
+  /@angular/platform-browser-dynamic@19.2.20(@angular/common@19.2.20)(@angular/compiler@19.2.20)(@angular/core@19.2.20)(@angular/platform-browser@19.2.20):
     resolution: {integrity: sha512-bNuykQy/MrDeARqvDPf6bqx+m1Qqanep7FhDy9QYWxfqz7D++/phqT9l8Ubj88juFCSDfR5ktUWdpnDz3/BCfA==}
     engines: {node: ^18.19.1 || ^20.11.1 || >=22.0.0}
     peerDependencies:
@@ -240,14 +240,14 @@ packages:
       '@angular/core': 19.2.20
       '@angular/platform-browser': 19.2.20
     dependencies:
-      '@angular/common': 19.2.20(@angular/core@19.2.0)(rxjs@7.8.2)
+      '@angular/common': 19.2.20(@angular/core@19.2.20)(rxjs@7.8.2)
       '@angular/compiler': 19.2.20
-      '@angular/core': 19.2.0(rxjs@7.8.2)(zone.js@0.15.0)
-      '@angular/platform-browser': 19.2.20(@angular/animations@19.2.20)(@angular/common@19.2.20)(@angular/core@19.2.0)
+      '@angular/core': 19.2.20(rxjs@7.8.2)(zone.js@0.15.0)
+      '@angular/platform-browser': 19.2.20(@angular/animations@19.2.20)(@angular/common@19.2.20)(@angular/core@19.2.20)
       tslib: 2.8.1
     dev: true
 
-  /@angular/platform-browser@19.2.20(@angular/animations@19.2.20)(@angular/common@19.2.20)(@angular/core@19.2.0):
+  /@angular/platform-browser@19.2.20(@angular/animations@19.2.20)(@angular/common@19.2.20)(@angular/core@19.2.20):
     resolution: {integrity: sha512-O9ZoQKILPC1T2c64OASS75XlOLBxY81m5AAgsBKhwiFWq+V28RsO0cnwpi1YSh/z4ryH8Fe7IUFz8jGrsJi3hQ==}
     engines: {node: ^18.19.1 || ^20.11.1 || >=22.0.0}
     peerDependencies:
@@ -258,13 +258,13 @@ packages:
       '@angular/animations':
         optional: true
     dependencies:
-      '@angular/animations': 19.2.20(@angular/common@19.2.20)(@angular/core@19.2.0)
-      '@angular/common': 19.2.20(@angular/core@19.2.0)(rxjs@7.8.2)
-      '@angular/core': 19.2.0(rxjs@7.8.2)(zone.js@0.15.0)
+      '@angular/animations': 19.2.20(@angular/common@19.2.20)(@angular/core@19.2.20)
+      '@angular/common': 19.2.20(@angular/core@19.2.20)(rxjs@7.8.2)
+      '@angular/core': 19.2.20(rxjs@7.8.2)(zone.js@0.15.0)
       tslib: 2.8.1
     dev: true
 
-  /@angular/router@19.2.20(@angular/common@19.2.20)(@angular/core@19.2.0)(@angular/platform-browser@19.2.20)(rxjs@7.8.2):
+  /@angular/router@19.2.20(@angular/common@19.2.20)(@angular/core@19.2.20)(@angular/platform-browser@19.2.20)(rxjs@7.8.2):
     resolution: {integrity: sha512-y0fyKycxJHr82kxXKE50Vac5hPn5Kx3gw9CfqyEuwJ9VQzEixDljU+chrQK4Wods14jJn9Tt2ncNPGH1rLya3Q==}
     engines: {node: ^18.19.1 || ^20.11.1 || >=22.0.0}
     peerDependencies:
@@ -273,14 +273,14 @@ packages:
       '@angular/platform-browser': 19.2.20
       rxjs: ^6.5.3 || ^7.4.0
     dependencies:
-      '@angular/common': 19.2.20(@angular/core@19.2.0)(rxjs@7.8.2)
-      '@angular/core': 19.2.0(rxjs@7.8.2)(zone.js@0.15.0)
-      '@angular/platform-browser': 19.2.20(@angular/animations@19.2.20)(@angular/common@19.2.20)(@angular/core@19.2.0)
+      '@angular/common': 19.2.20(@angular/core@19.2.20)(rxjs@7.8.2)
+      '@angular/core': 19.2.20(rxjs@7.8.2)(zone.js@0.15.0)
+      '@angular/platform-browser': 19.2.20(@angular/animations@19.2.20)(@angular/common@19.2.20)(@angular/core@19.2.20)
       rxjs: 7.8.2
       tslib: 2.8.1
     dev: true
 
-  /@angular/service-worker@19.2.20(@angular/core@19.2.0)(rxjs@7.8.2):
+  /@angular/service-worker@19.2.20(@angular/core@19.2.20)(rxjs@7.8.2):
     resolution: {integrity: sha512-CMQ5d5QtigiJa4g4m64Hqdc+cQUvBXQr+DtQvUbwNgEZunhizIa/jH141Ea0xzs6wcTsMLx+v9eWPQxcrbxGSQ==}
     engines: {node: ^18.19.1 || ^20.11.1 || >=22.0.0}
     hasBin: true
@@ -288,12 +288,12 @@ packages:
       '@angular/core': 19.2.20
       rxjs: ^6.5.3 || ^7.4.0
     dependencies:
-      '@angular/core': 19.2.0(rxjs@7.8.2)(zone.js@0.15.0)
+      '@angular/core': 19.2.20(rxjs@7.8.2)(zone.js@0.15.0)
       rxjs: 7.8.2
       tslib: 2.8.1
     dev: true
 
-  /@angular/upgrade@19.2.20(@angular/compiler@19.2.20)(@angular/core@19.2.0)(@angular/platform-browser-dynamic@19.2.20)(@angular/platform-browser@19.2.20):
+  /@angular/upgrade@19.2.20(@angular/compiler@19.2.20)(@angular/core@19.2.20)(@angular/platform-browser-dynamic@19.2.20)(@angular/platform-browser@19.2.20):
     resolution: {integrity: sha512-KZJ52lUeBUAILuxGiwsplCH+pKgB4F4c+gwxaHZhWTi0nysGqYJ/fLuXT22Onv0prcWt4JKikRPWGtvpTwX0SQ==}
     engines: {node: ^18.19.1 || ^20.11.1 || >=22.0.0}
     peerDependencies:
@@ -303,9 +303,9 @@ packages:
       '@angular/platform-browser-dynamic': 19.2.20
     dependencies:
       '@angular/compiler': 19.2.20
-      '@angular/core': 19.2.0(rxjs@7.8.2)(zone.js@0.15.0)
-      '@angular/platform-browser': 19.2.20(@angular/animations@19.2.20)(@angular/common@19.2.20)(@angular/core@19.2.0)
-      '@angular/platform-browser-dynamic': 19.2.20(@angular/common@19.2.20)(@angular/compiler@19.2.20)(@angular/core@19.2.0)(@angular/platform-browser@19.2.20)
+      '@angular/core': 19.2.20(rxjs@7.8.2)(zone.js@0.15.0)
+      '@angular/platform-browser': 19.2.20(@angular/animations@19.2.20)(@angular/common@19.2.20)(@angular/core@19.2.20)
+      '@angular/platform-browser-dynamic': 19.2.20(@angular/common@19.2.20)(@angular/compiler@19.2.20)(@angular/core@19.2.20)(@angular/platform-browser@19.2.20)
       tslib: 2.8.1
     dev: true
 
