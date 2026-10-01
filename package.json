@@ -52,7 +52,7 @@
     "@rollup/plugin-babel": "7.1.0",
     "@rollup/plugin-replace": "6.0.3",
     "@rollup/plugin-terser": "1.0.0",
-    "chai": "6.2.2",
+    "chai": "6.3.0",
     "concurrently": "10.0.5",
     "husky": "9.1.7",
     "karma": "6.4.4",
