@@ -56,8 +56,8 @@ devDependencies:
     specifier: 6.0.3
     version: 6.0.3(rollup@4.64.12)
   '@rollup/plugin-terser':
-    specifier: 1.0.0
-    version: 1.0.0(rollup@4.64.12)
+    specifier: 1.0.1
+    version: 1.0.1(rollup@4.64.12)
   chai:
     specifier: 6.3.0
     version: 6.3.0
@@ -889,8 +889,8 @@ packages:
       rollup: 4.64.12
     dev: true
 
-  /@rollup/plugin-terser@1.0.0(rollup@4.64.12):
-    resolution: {integrity: sha512-FnCxhTBx6bMOYQrar6C8h3scPt8/JwIzw3+AJ2K++6guogH5fYaIFia+zZuhqv0eo1RN7W1Pz630SyvLbDjhtQ==}
+  /@rollup/plugin-terser@1.0.1(rollup@4.64.12):
+    resolution: {integrity: sha512-8/UVzuKqkcP1YydBTd8sToJtc5ukOgahl7iIT/xYUPP3hK3dC29BnMfUVQB+wWCl2EpQHVFhkrge6DLN9jjOMg==}
     engines: {node: '>=20.0.0'}
     peerDependencies:
       rollup: ^2.0.0||^3.0.0||^4.0.0
@@ -899,7 +899,7 @@ packages:
         optional: true
     dependencies:
       rollup: 4.64.12
-      serialize-javascript: 7.0.4
+      serialize-javascript: 7.1.1
       smob: 1.5.0
       terser: 5.31.2
     dev: true
@@ -3041,11 +3041,6 @@ packages:
     resolution: {integrity: sha512-vFKC2IEtQnVhpT78h1Yp8wzwrf8CM+MzKMHGJZfBtzhZNycRFnXsHk6E5TxIkkMsgNS7mdX3AGB7x2QM2di4lA==}
     engines: {node: '>=10'}
     hasBin: true
-    dev: true
-
-  /serialize-javascript@7.0.4:
-    resolution: {integrity: sha512-DuGdB+Po43Q5Jxwpzt1lhyFSYKryqoNjQSA9M92tyw0lyHIOur+XCalOUe0KTJpyqzT8+fQ5A0Jf7vCx/NKmIg==}
-    engines: {node: '>=20.0.0'}
     dev: true
 
   /serialize-javascript@7.1.1:
