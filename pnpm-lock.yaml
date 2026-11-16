@@ -62,8 +62,8 @@ devDependencies:
     specifier: 6.3.0
     version: 6.3.0
   concurrently:
-    specifier: 10.0.6
-    version: 10.0.6
+    specifier: 10.0.7
+    version: 10.0.7
   husky:
     specifier: 9.1.7
     version: 9.1.7
@@ -1503,8 +1503,8 @@ packages:
     resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==}
     dev: true
 
-  /concurrently@10.0.6:
-    resolution: {integrity: sha512-qgICXXFp2/3nAebRLmxcINKEXM1mLK3ij/y31P02VTs/KIkddIeC05n73DxOXsXMB9LFSqNU1/na3lDlOhcbIw==}
+  /concurrently@10.0.7:
+    resolution: {integrity: sha512-zMCeLhawVIj3SLbpg0/BWCdJl1wcBSpcHKbNrhaM01P3xAlEWcH30Lea2q+F4uGZ7YM0scDK0dgpWyn1uCJj6w==}
     engines: {node: '>=22'}
     hasBin: true
     dependencies:
