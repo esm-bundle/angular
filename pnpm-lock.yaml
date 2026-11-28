@@ -50,8 +50,8 @@ devDependencies:
     specifier: 19.2.25
     version: 19.2.25(@angular/compiler@19.2.25)(@angular/core@19.2.0)(@angular/platform-browser-dynamic@19.2.25)(@angular/platform-browser@19.2.25)
   '@rollup/plugin-babel':
-    specifier: 7.1.0
-    version: 7.1.0(@babel/core@7.26.9)(rollup@4.68.9)
+    specifier: 7.2.0
+    version: 7.2.0(@babel/core@7.26.9)(rollup@4.68.9)
   '@rollup/plugin-replace':
     specifier: 6.0.3
     version: 6.0.3(rollup@4.68.9)
@@ -849,13 +849,13 @@ packages:
     engines: {node: ^12.20.0 || ^14.18.0 || >=16.0.0}
     dev: true
 
-  /@rollup/plugin-babel@7.1.0(@babel/core@7.26.9)(rollup@4.68.9):
-    resolution: {integrity: sha512-h9Y+xYha6p4wKO+FwdiPIkE+eIYCm8MzZPpX1iARIoFBnmKP9CnpT1p9dDf/DTFm6fyN8PmuLyRI5qZgchnitw==}
+  /@rollup/plugin-babel@7.2.0(@babel/core@7.26.9)(rollup@4.68.9):
+    resolution: {integrity: sha512-phEbG5me6rvdajoAMOioEpBbFIWK2ch8vXrO+JcKKlD/2EV8i7esKlUm2fA3YuKg92D8tV1AxEFIa9iiIq/sXw==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       '@babel/core': ^7.0.0
       '@types/babel__core': ^7.1.9
-      rollup: ^2.0.0||^3.0.0||^4.0.0
+      rollup: ^2.78.0||^3.0.0||^4.0.0||^5.0.0
     peerDependenciesMeta:
       '@types/babel__core':
         optional: true
@@ -909,7 +909,7 @@ packages:
       rollup:
         optional: true
     dependencies:
-      '@types/estree': 1.0.8
+      '@types/estree': 1.0.10
       estree-walker: 2.0.2
       picomatch: 2.3.1
       rollup: 4.68.9
@@ -1168,10 +1168,6 @@ packages:
 
   /@types/estree@1.0.10:
     resolution: {integrity: sha512-lTyOMnOcmRBzdCv6/4zUZCrEhV0xrqQiUZBZtVcbmLHBXKLnN8q89v/wKRF/Q0HbwVsqbIG3o5HDoFl9sduM+g==}
-    dev: true
-
-  /@types/estree@1.0.8:
-    resolution: {integrity: sha512-dWHzHa2WqEXI/O1E9OjrocMTKJl2mSrEolh1Iomrv6U+JuNwaHXsXx9bLu5gG7BUWFIN0skIQJQ/L1rIex4X6w==}
     dev: true
 
   /@types/node@20.14.10:
